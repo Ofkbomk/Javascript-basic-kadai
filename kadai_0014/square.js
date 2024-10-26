@@ -1,10 +1,8 @@
  
 //式
 const square = (num) => {
-  const result = num ** 2;
-  console.log(result);
-  return result;
+  return num ** 2;
 }
 
 //100
-const output = square(10);
+console.log(square(10));
